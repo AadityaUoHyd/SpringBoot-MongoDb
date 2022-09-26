@@ -1,7 +1,7 @@
 # READ ME HERE:
 
 
-# Mongodb :; db - usersdb, collection - order_DB
+# Mongodb : db - usersdb, collection - order_DB
 
 #PostMapping url at POSTMAN: http://localhost:8080/orderService/placedOrder
  
