@@ -2,10 +2,11 @@
 
 - First go to given URL, and signup for creating your mongodb atlas account(at least Try Free Version) : https://cloud.mongodb.com/
 
-- After creating free(upto 512MB free)/paid account and provide username/password, create your own clustor(or leave the default Clustor0). 
-Then go to database -> connect -> connect your application -> set the driver as JAVA and version of mongodb you want. 
-Now copy the URL from "Add your connection string into your application code" and paste it to your application.properties
-file with amending your own mongodb username/passcode in that URL.
+- After creating free(upto 512MB free)/paid account and provide username/password, create your own clustor(or leave the default Clustor0).
+Don't bother about cloud services, either you choose them consciously as per business need OR let ATLAS choose default AWS, for demo nothing to worry. 
+Then go to database -> connect -> connect your application -> set the driver as JAVA and version of mongodb you want(say 4.1 or later). 
+Now copy the URL from "2. Add your connection string into your application code" and paste it into your application.properties
+file of crud-project with amending your own mongodb username/passcode in that URL.
 
 - Now create your spring boot mongodb CRUD operation, and test it with POSTMAN tool.
 
